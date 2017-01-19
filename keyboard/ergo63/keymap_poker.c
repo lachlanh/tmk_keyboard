@@ -2,10 +2,11 @@
 
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* 0: qwerty */
-	    KEYMAP(Q,   W,   F,   P,   G,   J,   L,   U,   Y,   SCLN,  \
-		   A,   R,   S,   T,   D,   H,   N,   E,   I,   O,     \
-		   FN6, FN7,   C,   V,   B,   K,   M, COMM,FN8, FN9,  \
-		             FN0, BSPC,FN2, FN3, SPC, FN5                ),
+	    KEYMAP(ESC, 1,   2,   3,   4,   5,        6,   7,   8,   9,   0,   GRV,  \
+		   TAB, Q,   W,   F,   P,   G,        J,   L,   U,   Y,   SCLN,BSLS, \
+		   BSPC,A,   R,   S,   T,   D,   LSFT,H,   N,   E,   I,   O,  ,QUOT, \
+		   LSFT,Z,   X,   C,   V,   B,   LGUI,K,   M, COMM,  DOT, SLSH,RSFT,  \
+		   LCTL,LALT,F6,  F7,  F8,  BSPC,ENT, SPC, LEFT,DOWN,UP,  RGHT,LCTL ),
 /* 1: numbers */
 	    KEYMAP(1,   2,   3,   4,   5,   6,   7,   8,   9,   0,     \
 		   GRV, TRNS,TRNS,TRNS,LBRC,RBRC,LEFT,DOWN,UP,  RGHT,  \
