@@ -4,19 +4,19 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* 0: qwerty */
 	    KEYMAP(ESC, 1,   2,   3,   4,   5,        6,   7,   8,   9,   0,   GRV,  \
 		   TAB, Q,   W,   F,   P,   G,        J,   L,   U,   Y,   SCLN,BSLS, \
-		   BSPC,A,   R,   S,   T,   D,   LSFT,H,   N,   E,   I,   O,  ,QUOT, \
+		   BSPC,A,   R,   S,   T,   D,   LSFT,H,   N,   E,   I,   O,   QUOT, \
 		   LSFT,Z,   X,   C,   V,   B,   LGUI,K,   M, COMM,  DOT, SLSH,RSFT,  \
 		   LCTL,LALT,F6,  F7,  F8,  BSPC,ENT, SPC, LEFT,DOWN,UP,  RGHT,LCTL ),
 /* 1: numbers */
-	    KEYMAP(1,   2,   3,   4,   5,   6,   7,   8,   9,   0,     \
-		   GRV, TRNS,TRNS,TRNS,LBRC,RBRC,LEFT,DOWN,UP,  RGHT,  \
-		   TRNS,TRNS,TRNS,TRNS,MINS,EQL ,QUOT,COMM,DOT, BSLS,  \
-		             FN0, FN1, FN2, FN3, FN4, FN5                ),
+	    /*KEYMAP(1,   2,   3,   4,   5,   6,   7,   8,   9,   0,     \*/
+		   /*GRV, TRNS,TRNS,TRNS,LBRC,RBRC,LEFT,DOWN,UP,  RGHT,  \*/
+		   /*TRNS,TRNS,TRNS,TRNS,MINS,EQL ,QUOT,COMM,DOT, BSLS,  \*/
+			     /*FN0, FN1, FN2, FN3, FN4, FN5                ),*/
 /* 2: placeholder */
-	    KEYMAP(FN10,FN11,FN12,FN13,FN14,FN15,FN16,FN17,FN18,FN19,  \
-		   TRNS,TRNS,TRNS,TRNS,FN20,FN21,LEFT,DOWN,UP,  RGHT,  \
-		   TRNS,TRNS,TRNS,TRNS,FN22,FN23,FN24,FN25,FN26,FN27,  \
-		             FN0, FN1, FN2, FN3, FN4, FN5                ),
+	    /*KEYMAP(FN10,FN11,FN12,FN13,FN14,FN15,FN16,FN17,FN18,FN19,  \*/
+		   /*TRNS,TRNS,TRNS,TRNS,FN20,FN21,LEFT,DOWN,UP,  RGHT,  \*/
+		   /*TRNS,TRNS,TRNS,TRNS,FN22,FN23,FN24,FN25,FN26,FN27,  \*/
+			     /*FN0, FN1, FN2, FN3, FN4, FN5                ),*/
 
 /*
 		   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,  \
