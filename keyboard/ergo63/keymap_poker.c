@@ -5,26 +5,26 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	    KEYMAP(ESC, 1,   2,   3,   4,   5,        6,   7,   8,   9,   0,   GRV,  \
 		   TAB, Q,   W,   F,   P,   G,        J,   L,   U,   Y,   SCLN,BSLS, \
 		   BSPC,A,   R,   S,   T,   D,   LSFT,H,   N,   E,   I,   O,   QUOT, \
-		   LSFT,Z,   X,   C,   V,   B,   LGUI,K,   M, COMM,  DOT, SLSH,RSFT,  \
-		   LCTL,LALT,F6,  F7,  F8,  BSPC,ENT, SPC, LEFT,DOWN,UP,  RGHT,LCTL ),
+		   LSFT,Z,   X,   C,   V,   B,   LGUI,K,   M, COMM,  DOT, SLSH,LBRC,  \
+		   LCTL,LALT,FN0, MINS,EQL, BSPC,ENT, SPC, LEFT,DOWN,UP,  RGHT,RBRC ),
 /* 1: numbers */
-	    /*KEYMAP(1,   2,   3,   4,   5,   6,   7,   8,   9,   0,     \*/
-		   /*GRV, TRNS,TRNS,TRNS,LBRC,RBRC,LEFT,DOWN,UP,  RGHT,  \*/
-		   /*TRNS,TRNS,TRNS,TRNS,MINS,EQL ,QUOT,COMM,DOT, BSLS,  \*/
-			     /*FN0, FN1, FN2, FN3, FN4, FN5                ),*/
-/* 2: placeholder */
-	    /*KEYMAP(FN10,FN11,FN12,FN13,FN14,FN15,FN16,FN17,FN18,FN19,  \*/
-		   /*TRNS,TRNS,TRNS,TRNS,FN20,FN21,LEFT,DOWN,UP,  RGHT,  \*/
-		   /*TRNS,TRNS,TRNS,TRNS,FN22,FN23,FN24,FN25,FN26,FN27,  \*/
-			     /*FN0, FN1, FN2, FN3, FN4, FN5                ),*/
+	    KEYMAP(F1,  F2,  F3,  F4,  F5,  F6,       F7,  F8,  F9,  F10, F11, F12,  \
+                   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
+                   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
+                   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
+                   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS ),
 
-/*
-		   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,  \
-		   */
+	    KEYMAP(TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,  \
+                   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
+                   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
+                   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,  \
+                   TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS ),
+
+	    
 };
 
 const uint16_t PROGMEM fn_actions[] = {
-    [0] = ACTION_LAYER_TAP_KEY(1, KC_TAB),
+    [0] = ACTION_LAYER_TAP_KEY(1, KC_F6),
     [1] = ACTION_MODS_TAP_KEY(MOD_LGUI, KC_BSPC),
     [2] = ACTION_MODS_TAP_KEY(MOD_LSFT, KC_ESC),
     [3] = ACTION_MODS_TAP_KEY(MOD_RGUI, KC_ENT),
