@@ -8,7 +8,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		   LSFT,Z,   X,   C,   V,   B,   LGUI,K,   M, COMM,  DOT, SLSH,LBRC,  \
 		   LCTL,LALT,FN0, MINS,EQL, BSPC,ENT, SPC, LEFT,DOWN,UP,  RGHT,RBRC ),
 /* 1: numbers */
-	    KEYMAP(TRNS, F1,  F2,  F3,  F4,  F5,       F6,  F7,  F8,  F9,  F10, F11,  \
+	    KEYMAP(DEL, F1,  F2,  F3,  F4,  F5,       F6,  F7,  F8,  F9,  F10, F11,  \
                    TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     TRNS,TRNS,TRNS,TRNS,TRNS, F12, \
                    TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,BTN2,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
                    TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \

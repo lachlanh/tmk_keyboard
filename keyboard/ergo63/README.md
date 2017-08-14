@@ -1,3 +1,11 @@
+my noted
+ubuntu install dependencies
+apt install gcc-avr avr-libc avrdude
+
+make KEYMAP=poker
+
+sudo avrdude -p atmega32u4 -P /dev/ttyACM0 -c avr109 -U flash:w:gh60_lufa.hex
+
 GH60 keyboard firmware
 ======================
 DIY compact keyboard designed and run by komar007 and Geekhack community.
